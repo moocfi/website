@@ -224,9 +224,7 @@ a {color: #00747a; text-decoration: none; transition: all 0.25s ease-in-out; -we
 a:hover {background: #d5eff0;}
 
 /*Course boxes*/
-/*#main table {margin-right: 350px; margin-top: 25px;}*/
-/*#main table td:first-child {padding-right: 25px}*/
-
+.content-table {margin-left: -10px; width: 490px; float: left;}
 .element-container {display: inline-block; float: left; width: 433.333px;}
 .course-box {background: #fff; padding: 20px; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; margin-top: 15px;}
 .course-box h4 {margin-top: 0; display: inline;}
