@@ -17,8 +17,8 @@ body{
 	overflow: hidden;}
 
 .banner{
-	width: 1300px;
-	margin: 0 auto;
+	width: 1280px;
+	margin: auto;
 	height: auto;
 }
 
@@ -202,6 +202,9 @@ h1 {
 		background: -ms-linear-gradient(left,  #ffab0e 58%,#ff960e 100%);
 		background: linear-gradient(to right,  #ffab0e 58%,#ff960e 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffab0e', endColorstr='#ff960e',GradientType=1 );
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 30px;
 }
 
 	#content h1:first-child,
@@ -221,29 +224,29 @@ a {color: #00747a; text-decoration: none; transition: all 0.25s ease-in-out; -we
 a:hover {background: #d5eff0;}
 
 /*Course boxes*/
-#main table {margin-right: 350px; margin-top: 25px;}
-#main table td:first-child {padding-right: 25px}
+/*#main table {margin-right: 350px; margin-top: 25px;}*/
+/*#main table td:first-child {padding-right: 25px}*/
 
-.course-box {background: #fff; padding: 20px;}
+.element-container {display: inline-block; float: left; width: 433.333px;}
+.course-box {background: #fff; padding: 20px; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; margin-top: 15px;}
 .course-box h4 {margin-top: 0; display: inline;}
 .course-box-button {display: block; text-align: center; padding: 15px; margin: 0 -20px -20px -20px;}
-.middle {margin:25px;}
-.uni-logo {margin: -20px -20px 0px 0; height:50px; width: 50px; float: right; vertical-align: text-top; box-shadow: -1px 1px 0px 0px #f2f2f2;}
+.uni-logo {margin: -20px -20px 0px 0; height:50px; width: 50px; float: right; vertical-align: text-top; box-shadow: -2px 2px 0px 0px #f2f2f2;}
 
 .red,
 .red:hover	{background: #cc3333; }
 .green		{background: #3ebba7;}
 .green:hover	{background: #00747a;}
 
-.course-box .status, 
+.course-box .status,
 .course-box .date {display: block; color: #fff; text-shadow: 1px 1px 1px #696969;}
 
 .course-box .status {font-size: 30px;}
 
 /*News feed*/
-.feed {border-bottom: solid 3px #f2f2f2;}
+.feed {border-bottom: solid 3px #f2f2f2; width: 350px;}
 .feed h5 {margin: 5px 20px -3px 5px; font-size: .8em; font-weight: 600;}
-.feed p {margin: 5px 20px 3px 5px; font-size: .9em}
+.feed p {font-size: .9em}
 .feed td {vertical-align: top;}
 .feed-logo {margin: 5px 0 3px 0; height:50px; width: auto; }
 .feed-date {font-size: .75em; color: #b0b0b0}
